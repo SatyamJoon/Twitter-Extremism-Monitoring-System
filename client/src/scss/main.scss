@@ -1,0 +1,25 @@
+@import 'config';
+@import 'loginAndSignup';
+@import 'signup';
+@import 'mainPagePC';
+@import 'currentPerson';
+@import 'dataBlock';
+@import 'addDelPopUp';
+
+*{
+  box-sizing: border-box;
+}
+
+input:focus {
+    outline: none;
+  }
+
+.btn-outline-primary{
+  color: $primary-color;
+  border: 2px solid $primary-color;
+  width: 90px;
+  margin: 0 auto ;
+}
+.btn-outline-primary:hover{
+  background: $primary-color;
+}
